@@ -10,18 +10,18 @@ $(document).ready(
 
 	        if((i%3) == 0  && (i%5 !=0)) 
 			{
-				$('body').append('<p>' + "Fizz"+ ' </p>');
+				$('body').append('<body>' + "Fizz"+ ' </body>');
 			} 
 			else if ((i%5) == 0 && (i%3 !=0)){
 
-	            $('body').append('<p>' + "Buzz"+ ' </p>');}
+	            $('body').append('<body>' + "Buzz"+ ' </body>');}
  
             else if ((i%3 == 0) && (i%5 == 0)){
 	       
-	            $('body').append('<p>' + "FizzBuzz" + ' </p>');}
+	            $('body').append('<body>' + "FizzBuzz" + ' </body>');}
  
             else{
-	            $('body').append('<p>' + i + ' </p>');}
+	            $('body').append('<body>' + i + ' </body>');}
 
 
         }
